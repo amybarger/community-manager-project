@@ -47,8 +47,16 @@
 }
 
 /* Nav */
+
+.navbar {
+  display: flex;
+}
+
 .navlink {
   color: #fff;
+  margin-left: 2000%;
+  display: flex;
+  justify-content: space-around;
 }
 
 /* Images and Graphics */
@@ -66,7 +74,8 @@
 }
 
 .vercellogo {
-  width: 100px;
+  width: 120px;
+  margin-left: 400%;
 }
 
 @media (max-width: 600px) {

@@ -34,12 +34,12 @@ export default function Nav() {
     <nav
       class="navbar navbar-expand-lg navbar-light fixed-top"
       style={{
-        background: `rgba(25, 25, 25, ${backgroundTransparacy})`,
+        background: `rgba(0, 0, 0, ${backgroundTransparacy})`,
         padding: `${padding}px 0px`,
         boxShadow: `rgb(0 0 0 / ${boxShadow}) 0px 0px 20px 6px`,
       }}
     >
-      <div className="container">
+      <div className={styles.navbar}>
         <a class="navbar-bran" href="#">
           <img src="/vercel_logo.png" alt="Vercel logo" className={styles.vercellogo}></img>
         </a>
@@ -64,11 +64,6 @@ export default function Nav() {
             <li class="nav-item">
               <a class={styles.navlink} href="#">
                 About
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class={styles.navlink} href="#">
-                Contact
               </a>
             </li>
           </ul>
