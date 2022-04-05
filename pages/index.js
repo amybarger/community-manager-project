@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
+import Fade from "react-awesome-reveal";
 
 export default function Home() {
   return (
@@ -12,28 +12,59 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <img src="/Amy.jpg" alt="Picture of Amy Barger" className={styles.amypic}></img>
+        <Fade duration='1000'>
+        <img src="/BettyWhite.gif" alt="Gif of Betty White" className={styles.picsizes}></img>
         <h1 className={styles.title}>
           Welcome!
         </h1>
 
         <p className={styles.description}>
-        Glad you’re here. Thanks for taking the time to check out my project!
+          Glad you’re here. Thanks for taking the time to check out my project!
         </p>
+        </Fade>
+
+        <Fade duration='1000'>
+        <img src="/Amy.jpg" alt="Picture of Amy Barger" className={styles.picsizes}></img>
+        <h1 className={styles.title}>
+          This project belongs to...
+        </h1>
+
+        <p className={styles.description}>
+          Amy Barger, Candidate for the Vercel Community Management role.
+        </p>
+        </Fade>
+
+        <Fade duration='1000'>
+        <img src="/vercel_icon.png" alt="Logos of apps and languages" className={styles.logosizes}></img>
+        <img src="/nextjs_icon.png" alt="Logos of apps and languages" className={styles.logosizes}></img>
+        <img src="/3Logos.png" alt="Logos of apps and languages" className={styles.picsizes}></img>
+        <h1 className={styles.title}>
+          Tools Used
+        </h1>
+
+        <p className={styles.description}>
+          This project was completed in Next.js and React.js frameworks.
+          <br></br>
+          <br></br>
+          Languages used: HTML, CSS, JavaScript.
+        </p>
+        </Fade>
+
+        <Fade duration='1000'>
+        <img src="/JanelleMonae.gif" alt="Gif of Janelle Monae" className={styles.picsizes}></img>
+        <h1 className={styles.title}>
+          Answers to questions
+        </h1>
+
+        <p className={styles.description}>
+          First off — these questions were a fun challenge! You can click here to a directory of the questions linking to my answers. These are also located in the nav bar at the top of this page. Enjoy!
+        </p>
+        </Fade>
 
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+        <p> Copyright © 2022 Vercel Inc. All rights reserved.</p>
       </footer>
     </div>
   )

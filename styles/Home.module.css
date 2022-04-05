@@ -62,8 +62,12 @@
   margin-left: 0.5rem;
 }
 
-.amypic {
+.picsizes {
   width: 235px;
+}
+
+.logosizes {
+  width: 100px;
 }
 
 @media (max-width: 600px) {
