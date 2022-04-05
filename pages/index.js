@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Fade from "react-awesome-reveal";
 import Link from 'next/link'
+import Nav from '/components/Nav.js'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Nav />
       <main className={styles.main}>
         <Fade duration='1000'>
         <img src="/BettyWhite.gif" alt="Gif of Betty White" className={styles.picsizes}></img>
