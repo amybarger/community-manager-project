@@ -1,7 +1,4 @@
 /* Main */
-.container {
-  padding: 0 2rem;
-}
 
 .main {
   min-height: 100vh;
@@ -11,6 +8,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.textalignall {
+  display: flex;
+  flex-direction: row;
+  padding: 10%;
+  margin-top: 0.5%;
+  justify-content: space-between;
+  margin-bottom: 4%;
+}
+
+.textalign {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+  text-align: left;
 }
 
 .footer {
@@ -30,20 +43,22 @@
 }
 
 .title {
-  margin: 0;
   line-height: 1.15;
   font-size: 4rem;
+  margin-bottom: -5%;
 }
 
 .title,
 .description {
-  text-align: center;
+  text-align: left;
 }
 
 .description {
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  text-align: left;
+  width: 500px;
 }
 
 /* Nav */
@@ -67,10 +82,16 @@
 
 .picsizes {
   width: 235px;
+  margin-left: 10%;
 }
 
 .logosizes {
   width: 100px;
+}
+
+.logosalign {
+  display: flex;
+  flex-direction: row;
 }
 
 .vercellogo {
