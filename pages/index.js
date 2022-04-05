@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Fade from "react-awesome-reveal";
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -57,7 +58,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          First off — these questions were a fun challenge! You can click here to a directory of the questions linking to my answers. These are also located in the nav bar at the top of this page. Enjoy!
+          First off — these questions were a fun challenge! You can <Link href="/all.js"><a>click here</a></Link> to a directory of the questions linking to my answers. These are also located in the nav bar at the top of this page. Enjoy!
         </p>
         </Fade>
 
