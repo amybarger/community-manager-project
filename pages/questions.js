@@ -1,7 +1,7 @@
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 import Nav from '/components/Nav.js';
-import Head from 'next/head';;
+import Head from 'next/head';
 
 export default function All() {
     return (
