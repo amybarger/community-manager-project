@@ -74,6 +74,18 @@
   /* justify-content: space-around; */
 }
 
+/* Questions Page */
+.questions {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+.linkquestions {
+  width: 800px;
+}
+
 /* Images and Graphics */
 .logo {
   height: 1em;
