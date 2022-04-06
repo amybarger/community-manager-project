@@ -14,7 +14,24 @@ export default function CommonProbs() {
 
             <Nav />
 
-            
+            <main className={styles.main}>
+            <div className={styles.questions}>
+            <h1 className={styles.questionheader}>
+            What do you think is one of the most common problems which customers ask Vercel for help with? How would you help customers to overcome common problems, short-term and long-term? 
+            </h1>
+            <p className={styles.answer}>
+            From what I can see, Vercel users are having trouble deploying because they are exceeding size limits (my sources where this is mentioned are <a href="https://github.com/orgs/vercel/discussions/103?sort=new"><u>here</u></a> and <a href="https://github.com/orgs/vercel/discussions/124"><u>here</u></a>.). Overcoming these problems short-term, I would use my methods in responding to each post being personal, polite, thoughtful, and helpful. I would likely have some common questions with prewritten drafts and resources to their answers, then adding my personal touches to the post. I would also make sure to mention that we are aware of these issues and are thoroughly investigating the common errors with the size limits in deploying. We are working on a bigger project that will help work around these issues. Keep an eye on when this will be announced by visiting our Github Discussions board!
+            <br></br>
+            <br></br>
+            For the long-term, I would gather each concern regarding this topic and insert them into a spreadsheet. Then, I’d import the spreadsheet into a database in R programming. Next, I’d look into the data of what are the actual most common issues with the size limit problem in the deployment phase. Also, what solutions are working or what still needs resolved. Once I have this data, I can put these findings into a visual presentation for the Customer Success team where I can suggest a plan for solutions — working with Vercel engineers directly to contribute to a Vercel article, creating a video library of how-to’s in deploying with third party packages, and so on. The possibilities are endless!
+            </p>
+            </div>
+            </main>
+            <footer className={styles.footer}>
+                <a class="navbar-bran" href="https://vercel.com/about">
+                <img src="/vercel_logo.png" alt="Vercel logo" className={styles.vercellogobottom}></img></a>
+                 <p> Copyright © 2022 Vercel Inc. All rights reserved.</p>
+            </footer>
         </div>
     )
 }
