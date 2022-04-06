@@ -71,6 +71,7 @@
 
 .navbar {
   display: flex;
+  align-content: center;
 }
 
 .navlink {
@@ -120,12 +121,27 @@
 
 .logosalign {
   display: flex;
+  flex-direction: column;
+}
+
+.languagesicons {
+  margin-top: 5%;
+  margin-right: 100%;
+}
+
+.vercelnexticons {
+  display: flex;
   flex-direction: row;
+  margin-left: 7%;
 }
 
 .vercellogo {
   width: 120px;
   margin-left: 400%;
+}
+
+.vercelicon {
+  margin-right: 5%;
 }
 
 @media (max-width: 600px) {
