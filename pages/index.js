@@ -76,7 +76,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          First off — these questions were a fun challenge! You can <a href="/all.js">click here</a> to a directory of the questions with my answers. These are also located in the nav bar at the top of this page. Enjoy!
+          First off — these questions were a fun challenge! You can <a href="/questions">click here</a> to a directory of the questions with my answers. These are also located in the nav bar at the top of this page. Enjoy!
         </p>
         </div>
         </Fade>
@@ -85,6 +85,9 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
+      <a class="navbar-bran" href="https://vercel.com/about">
+          <img src="/vercel_logo.png" alt="Vercel logo" className={styles.vercellogobottom}></img>
+        </a>
         <p> Copyright © 2022 Vercel Inc. All rights reserved.</p>
       </footer>
     </div>
