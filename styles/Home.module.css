@@ -144,6 +144,11 @@
   margin-right: 5%;
 }
 
+.screenshot {
+  width: 500px;
+  margin-right: 50%;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

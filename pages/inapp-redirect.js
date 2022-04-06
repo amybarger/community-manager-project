@@ -20,8 +20,8 @@ export default function InAppRedirect() {
             Add a temporary in-app redirect to your project, redirecting /hello-vercel (or any path – but be sure to tell us which!) to https://vercel.com 
             </h1>
             <p className={styles.answer}>
-            When this is accomplished, update this text!
-            </p>
+            Done! I put the following code in the next.config.js file in my project:</p>
+            <img src="screenshot_redirect.png" alt="Redirect code sample" className={styles.screenshot}></img>
             </div>
             </main>
             <footer className={styles.footer}>
