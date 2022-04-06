@@ -91,9 +91,11 @@ export default function All() {
             </ul>
             </div>
             </main>
-            
-            
-            
+            <footer className={styles.footer}>
+                <a class="navbar-bran" href="https://vercel.com/about">
+                <img src="/vercel_logo.png" alt="Vercel logo" className={styles.vercellogobottom}></img></a>
+                 <p> Copyright © 2022 Vercel Inc. All rights reserved.</p>
+            </footer>
         </div>
     )
 }
