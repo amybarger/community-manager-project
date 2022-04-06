@@ -14,7 +14,21 @@ export default function Exercise() {
 
             <Nav />
 
-            
+            <main className={styles.main}>
+            <div className={styles.questions}>
+            <h1 className={styles.questionheader}>
+            How could we improve or alter this familiarisation exercise?
+            </h1>
+            <p className={styles.answer}>
+            I think this has been a great assessment! It’s a solid way for myself and the Customer Success team to understand how comfortable someone in the Community Manager role would be. I think these questions and asks are fitting. My only wish is that I could have got this done faster, as I wanted to be thorough and put out my best work! Sorry for the wait!
+            </p>
+            </div>
+            </main>
+            <footer className={styles.footer}>
+                <a class="navbar-bran" href="https://vercel.com/about">
+                <img src="/vercel_logo.png" alt="Vercel logo" className={styles.vercellogobottom}></img></a>
+                 <p> Copyright © 2022 Vercel Inc. All rights reserved.</p>
+            </footer>
         </div>
     )
 }
