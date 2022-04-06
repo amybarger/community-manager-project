@@ -92,6 +92,17 @@
   width: 800px;
 }
 
+/* Individual Question Pages */
+.questionheader {
+  margin-top: 10%;
+  width: 1000px;
+}
+
+.answer {
+  width: 1000px;
+  margin-top: 3%;
+}
+
 /* Images and Graphics */
 .logo {
   height: 1em;
