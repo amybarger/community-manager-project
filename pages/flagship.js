@@ -14,6 +14,21 @@ export default function Flagship() {
 
             <Nav />
 
+            <main className={styles.main}>
+            <div className={styles.questions}>
+            <h1 className={styles.questionheader}>
+            If you could make one change to <a href ="https://github.com/vercel/community/discussions"><u>our flagship community</u></a>, what would it be and why? 
+            </h1>
+            <p className={styles.answer}>
+            For the flagship community, I would add a section for events as one of the categories. If anyone would like to join a Vercel event, they would be listed in the Event category (any podcasts, meetups, Ask-Me-Anything, etc.). I would also add a section for FAQ that would include our top questions with answers. I also notice there could be more tags for the search “label” filtering option to help users find answers faster.
+            </p>
+            </div>
+            </main>
+            <footer className={styles.footer}>
+                <a class="navbar-bran" href="https://vercel.com/about">
+                <img src="/vercel_logo.png" alt="Vercel logo" className={styles.vercellogobottom}></img></a>
+                 <p> Copyright © 2022 Vercel Inc. All rights reserved.</p>
+            </footer>
             
         </div>
     )
