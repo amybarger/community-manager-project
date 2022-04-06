@@ -14,7 +14,21 @@ export default function BetterResponse() {
 
             <Nav />
 
-            
+            <main className={styles.main}>
+            <div className={styles.questions}>
+            <h1 className={styles.questionheader}>
+            Would, or how would, you improve the response shared with a customer <a href="https://github.com/vercel/community/discussions/310"><u>here?</u></a>
+            </h1>
+            <p className={styles.answer}>
+            I like that the user who replied tagged the user who asked the question and gave them a good resource to their question. I think what the reply lacks is some of the methods I like to use in community discussions — being a bit more personal and thoughtful to the user and their question. I would also add more detail in the response about how this method of skipping builds relates more directly to the user’s project.
+            </p>
+            </div>
+            </main>
+            <footer className={styles.footer}>
+                <a class="navbar-bran" href="https://vercel.com/about">
+                <img src="/vercel_logo.png" alt="Vercel logo" className={styles.vercellogobottom}></img></a>
+                 <p> Copyright © 2022 Vercel Inc. All rights reserved.</p>
+            </footer>
         </div>
     )
 }
