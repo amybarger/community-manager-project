@@ -1,6 +1,6 @@
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
-import Nav from '/components/Nav.js';
+import Nav from '/components/Nav';
 import Head from 'next/head';
 
 export default function InAppRedirect() {
