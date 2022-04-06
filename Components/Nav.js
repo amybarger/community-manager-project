@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css'
 import { useEffect, useState } from "react";
+import Link from 'next/link'
 
 export default function Nav() {
   
@@ -40,7 +41,7 @@ export default function Nav() {
       }}
     >
       <div className={styles.navbar}>
-        <a class="navbar-bran" href="#">
+        <a class="navbar-bran" href="https://vercel.com/about">
           <img src="/vercel_logo.png" alt="Vercel logo" className={styles.vercellogo}></img>
         </a>
         <button
@@ -57,13 +58,13 @@ export default function Nav() {
         <div class="collapse-navbar-collapse" id="navbarText">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class={styles.navlink} href="#">
+              <a class={styles.navlink} Link href="/">
                 Home
               </a>
             </li>
             <li class="nav-item">
-              <a class={styles.navlink} href="#">
-                About
+              <a class={styles.navlink} href="/questions">
+                Questions
               </a>
             </li>
           </ul>

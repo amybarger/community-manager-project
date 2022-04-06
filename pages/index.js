@@ -47,9 +47,11 @@ export default function Home() {
 
         <div className={styles.textalignall}>
         <Fade duration='1000'>
+          <div className={styles.logosalign}>
         <img src="/vercel_icon.png" alt="Logos of apps and languages" className={styles.logosizes}></img>
         <img src="/nextjs_icon.png" alt="Logos of apps and languages" className={styles.logosizes}></img>
         <img src="/3Logos.png" alt="Logos of apps and languages" className={styles.picsizes}></img>
+        </div>
         <div className={styles.textalign}>
         <h1 className={styles.title}>
           Tools Used
@@ -74,7 +76,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          First off — these questions were a fun challenge! You can <Link href="/all.js"><a>click here</a></Link> to a directory of the questions linking to my answers. These are also located in the nav bar at the top of this page. Enjoy!
+          First off — these questions were a fun challenge! You can <a href="/all.js">click here</a> to a directory of the questions with my answers. These are also located in the nav bar at the top of this page. Enjoy!
         </p>
         </div>
         </Fade>
