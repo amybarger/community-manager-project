@@ -16,24 +16,24 @@ export default function Domain() {
             <main className={styles.main}>
             <div className={styles.questions}>
             <h1 className={styles.questionheader}>
-            A customer writes in to our GitHub community stating "I have a custom domain which I purchased at GoDaddy and I want to use it on my project". In a couple of paragraphs, how do you respond? 
+            `&quot;`I have a custom domain which I purchased at GoDaddy and I want to use it on my project`&quot;`. In a couple of paragraphs, how do you respond? 
             </h1>
             <p className={styles.answer}>
                 I would continue my methods in community engagement by being polite, personal, thoughtful, helpful, and include an opportunity for participation in any relevant project, event, etc.
                 <br></br>
                 <br></br>
-                “Chris, nice to speak with you today! I’m Amy, with Vercel. Has anyone told you lately how awesome your backend code to your website looks? Super impressive! Thanks for being a part of this community — your impact is felt.
+                `&quot;`Chris, nice to speak with you today! I’m Amy, with Vercel. Has anyone told you lately how awesome your backend code to your website looks? Super impressive! Thanks for being a part of this community — your impact is felt.
                 <br></br>
                 <br></br>
                 I’m happy to help you use your custom domain on your project! Here is the step-by-step process to do that:
                 <br></br>
                 <br></br>
                 <ul>
-                    <li>Under the “Overview” tab on your Vercel dashboard, click the project that you would like to add the domain URL to.</li>
+                    <li>Under the `&quot;`Overview” tab on your Vercel dashboard, click the project that you would like to add the domain URL to.</li>
 
-                    <li>Once there, you will see a button that says “View Domains”. Click that button to lead you to the Domains associated with your project.</li>
+                    <li>Once there, you will see a button that says `&quot;`View Domains”. Click that button to lead you to the Domains associated with your project.</li>
 
-                    <li>While on the Domains page, you can add your domain in the box provided, and click “Add”. You will be given a few options to either redirect your project to your new domain, or simply just add the domain.</li>
+                    <li>While on the Domains page, you can add your domain in the box provided, and click `&quot;`Add`&quot;`. You will be given a few options to either redirect your project to your new domain, or simply just add the domain.</li>
                 </ul>
 	            For more information, check out our Vercel documentation <a href="https://vercel.com/docs/concepts/projects/custom-domains"><u>here on domains.</u></a> 
                 <br></br>
@@ -43,7 +43,7 @@ export default function Domain() {
             </div>
             </main>
             <footer className={styles.footer}>
-                <a class="navbar-bran" href="https://vercel.com/about">
+                <a className="navbar-bran" href="https://vercel.com/about">
                 <img src="/vercel_logo.png" alt="Vercel logo" className={styles.vercellogobottom}></img></a>
                  <p> Copyright © 2022 Vercel Inc. All rights reserved.</p>
             </footer>

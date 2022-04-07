@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Fade from "react-awesome-reveal";
-// import NavBar from '/components/NavBar.js';
+import NavBar from '/components/NavBar.js';
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* <NavBar /> */}
+      <NavBar />
       <main className={styles.main}>
         <div className={styles.textalignall}>
           <Fade duration='1000'>
@@ -80,7 +80,7 @@ export default function Home() {
               </h1>
 
               <p className={styles.description}>
-                First off — these questions were a fun challenge! You can <a href="/questions"><u>click here</u></a> to a directory of the questions with my answers. These are also located in the nav bar at the top of this page. Enjoy!
+                {/* First off — these questions were a fun challenge! You can <a href="/questions"><u>click here</u></a> to a directory of the questions with my answers. These are also located in the nav bar at the top of this page. Enjoy! */}
               </p>
             </div>
           </Fade>
@@ -89,7 +89,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <a class="navbar-bran" href="https://vercel.com/about">
+        <a className="navbar-bran" href="https://vercel.com/about">
           <img src="/vercel_logo.png" alt="Vercel logo" className={styles.vercellogobottom}></img>
         </a>
         <p> Copyright © 2022 Vercel Inc. All rights reserved.</p>
