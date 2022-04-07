@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Fade from "react-awesome-reveal";
-import NavBar from '/components/NavBar.js'
+// import NavBar from '/components/NavBar.js';
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <NavBar />
+      {/* <NavBar /> */}
       <main className={styles.main}>
         <div className={styles.textalignall}>
           <Fade duration='1000'>

@@ -1,6 +1,6 @@
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
-import NavBar from '/components/NavBar.js';
+// import NavBar from '/components/NavBar.js';
 import Head from 'next/head';
 
 export default function All() {
@@ -12,7 +12,7 @@ export default function All() {
             <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <NavBar />
+            {/* <NavBar /> */}
             
             <main className={styles.main}>
             <div className={styles.questions}>
