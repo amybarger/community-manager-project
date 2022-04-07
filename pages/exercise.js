@@ -1,5 +1,5 @@
 import styles from '../styles/Home.module.css';
-import Nav from '/components/Nav';
+import NavBar from '/components/NavBar.js';
 import Head from 'next/head';
 
 export default function Exercise() {
@@ -11,7 +11,7 @@ export default function Exercise() {
             <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <Nav />
+            <NavBar />
 
             <main className={styles.main}>
             <div className={styles.questions}>
