@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css'
 import { useEffect, useState } from "react";
+import Link from 'next/link'
 
 export default function NavBar() {
   
@@ -57,14 +58,14 @@ export default function NavBar() {
         <div className="collapse-navbar-collapse" id="navbarText">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              {/* <a className={styles.navlink} Link href="/"> */}
-              <p>Home</p>  
-              {/* </a> */}
+              <Link href="/">
+              <a className={styles.navlink}>Home</a>  
+              </Link>
             </li>
             <li className="nav-item">
-              {/* <a className={styles.navlink} href="/questions"> */}
-                <p>Questions</p>
-              {/* </a> */}
+              <Link href="/questions">
+                <a className={styles.navlink}>Questions</a>
+              </Link>
             </li>
           </ul>
         </div>
