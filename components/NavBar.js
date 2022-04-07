@@ -1,7 +1,7 @@
 import styles from '../styles/Home.module.css'
 import { useEffect, useState } from "react";
 
-export default function Nav() {
+export default function NavBar() {
   
   const [clientWindowHeight, setClientWindowHeight] = useState("");
 
