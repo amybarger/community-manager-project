@@ -32,7 +32,7 @@ export default function NavBar() {
 
   return (
     <nav
-      class="navbar navbar-expand-lg navbar-light fixed-top"
+      className="navbar navbar-expand-lg navbar-light fixed-top"
       style={{
         background: `rgba(0, 0, 0, ${backgroundTransparacy})`,
         padding: `${padding}px 0px`,
@@ -40,11 +40,11 @@ export default function NavBar() {
       }}
     >
       <div className={styles.navbar}>
-        <a class="navbar-bran" href="https://vercel.com/about">
+        <a className="navbar-bran" href="https://vercel.com/about">
           <img src="/vercel_logo.png" alt="Vercel logo" className={styles.vercellogo}></img>
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarText"
@@ -52,19 +52,19 @@ export default function NavBar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse-navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class={styles.navlink} Link href="/">
-                Home
-              </a>
+        <div className="collapse-navbar-collapse" id="navbarText">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item active">
+              {/* <a className={styles.navlink} Link href="/"> */}
+              <p>Home</p>  
+              {/* </a> */}
             </li>
-            <li class="nav-item">
-              <a class={styles.navlink} href="/questions">
-                Questions
-              </a>
+            <li className="nav-item">
+              {/* <a className={styles.navlink} href="/questions"> */}
+                <p>Questions</p>
+              {/* </a> */}
             </li>
           </ul>
         </div>

@@ -38,7 +38,7 @@ export default function Domain() {
 	            For more information, check out our Vercel documentation <a href="https://vercel.com/docs/concepts/projects/custom-domains"><u>here on domains.</u></a> 
                 <br></br>
                 <br></br>
-	            I hope that answers your question, Chris! Please let me know if you need any more assistance. While you’re here, I also wanted to share with you about our Discord meet-and-greet meetup coming up on May 5, 2022! Here’s a link to the event invite if you’d like to join us and get more info: (link to event invite)."
+	            I hope that answers your question, Chris! Please let me know if you need any more assistance. While you’re here, I also wanted to share with you about our Discord meet-and-greet meetup coming up on May 5, 2022! Here’s a link to the event invite if you’d like to join us and get more info: (link to event invite).`&quot;`
             </p>
             </div>
             </main>
