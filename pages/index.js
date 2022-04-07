@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Fade from "react-awesome-reveal";
 import NavBar from '/components/NavBar.js';
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -80,7 +81,7 @@ export default function Home() {
               </h1>
 
               <p className={styles.description}>
-                {/* First off — these questions were a fun challenge! You can <a href="/questions"><u>click here</u></a> to a directory of the questions with my answers. These are also located in the nav bar at the top of this page. Enjoy! */}
+                First off — these questions were a fun challenge! You can <Link href="/questions"><a><u>click here</u></a></Link> to a directory of the questions with my answers. These are also located in the nav bar at the top of this page. Enjoy!
               </p>
             </div>
           </Fade>
