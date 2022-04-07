@@ -27,7 +27,7 @@ export default function RedirectResponse() {
             `&quot;`Hey Sam! I’m Amy with Vercel. First, I want to say your pinned mileage calculator project is super impressive. The impact you’re leaving on others with that tool is felt! Thanks for being a part of this community — glad you’re here.
             <br></br>
             <br></br>
-            To answer your question, accurately, I would need to know what framework you are working in for in-app redirects or if you need a domain redirect. Can you provide that to me? There is generally a simple solution to this! <a href ="https://vercel.com/support/articles/does-vercel-support-permanent-redirects?query=redire#in-application-redirects"><u>Here's our resource for any redirect.</u></a> Please let me know if this was helpful or if you need further assistance!
+            To answer your question, accurately, I would need to know what framework you are working in for in-app redirects or if you need a domain redirect. Can you provide that to me? There is generally a simple solution to this! <a href="https://vercel.com/support/articles/does-vercel-support-permanent-redirects?query=redire#in-application-redirects"><u>Here is our resource for any redirect.</u></a> Please let me know if this was helpful or if you need further assistance!
             <br></br>
             <br></br>
             <i>I would send the following reply after Sam has their solution, since their main desire is an answer to their question.</i> 
